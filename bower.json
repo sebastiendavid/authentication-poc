@@ -1,0 +1,20 @@
+{
+  "name": "authentication-poc",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "Sébastien David <sebastien.david.1983@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.2"
+  },
+  "private": true
+}

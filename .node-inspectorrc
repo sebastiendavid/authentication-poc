@@ -1,0 +1,5 @@
+{
+    "debug-brk": false,
+    "cli": false,
+    "preload": true
+}

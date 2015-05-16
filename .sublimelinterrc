@@ -1,0 +1,32 @@
+{
+    "linters": {
+        "coffeelint": {
+            "@disable": true,
+            "args": [],
+            "excludes": []
+        },
+        "jscs": {
+            "@disable": true,
+            "args": [],
+            "excludes": []
+        },
+        "jshint": {
+            "@disable": false,
+            "args": [],
+            "excludes": [
+                "*/node_modules/*",
+                "*/bower_components/*",
+                "*/target/*"
+            ]
+        },
+        "jsxhint": {
+            "@disable": false,
+            "args": [],
+            "excludes": [
+                "*/node_modules/*",
+                "*/bower_components/*",
+                "*/target/*"
+            ]
+        }
+    }
+}

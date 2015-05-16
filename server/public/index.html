@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <title>Authentication</title>
+        <link rel="stylesheet" href="/foundation/css/normalize.css"/>
+        <link rel="stylesheet" href="/foundation/css/foundation.css"/>
+        <link rel="stylesheet" href="/index.css"/>
+    </head>
+    <body>
+        <form class="form" action="/signin" method="post">
+            <div class="row collapse prefix-radius">
+                <div class="small-3 columns">
+                    <span class="prefix">Username</span>
+                </div>
+                <div class="small-9 columns">
+                    <input type="text" id="username" name="username" placeholder="foo">
+                </div>
+            </div>
+            <div class="row collapse prefix-radius">
+                <div class="small-3 columns">
+                    <span class="prefix">Password</span>
+                </div>
+                <div class="small-9 columns">
+                    <input type="password" id="password" name="password" placeholder="bar">
+                </div>
+            </div>
+            <div class="row login">
+                <input id="signin" class="button" type="submit" value="Log In"/>
+            </div>
+        </form>
+        <script src="/foundation/js/vendor/jquery.js"></script>
+        <script src="/foundation/js/vendor/modernizr.js"></script>
+        <script src="/foundation/js/foundation/foundation.js"></script>
+        <script src="/index.js"></script>
+    </body>
+</html>

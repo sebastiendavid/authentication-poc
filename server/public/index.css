@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+.form {
+    display: inline-block;
+    width: 100%;
+    max-width: 640px;
+    padding: 3em 1em;
+}
+
+.row.login {
+    text-align: right;
+}
+

@@ -1,0 +1,5 @@
+{
+    "shorthand-resolver": "https://gitrd.emv2.com/{{owner}}/{{package}}.git",
+    "analytics": false,
+    "interactive": false
+}
